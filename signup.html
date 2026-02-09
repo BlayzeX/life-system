@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <form method="post" action="dashboard.html">
+       <div class="signup-card">
+         <h1 class="title">Sign Up</h1>
+         <label for="name">Name:</label><input type="text" name="name" id="name" required>
+         <label for="username">Username:</label><input type="text" name="username" id="username" required>
+         <label for="gmail">Gmail:</label><input type="email" name="gmail" id="gmail" placeholder="example@gmail.com" required>
+         <label for="password">Password:</label><input type="password" name="password" id="password" placeholder="*************" required>
+            <label for="age" class="age">Age:</label><input type="number" name="age" id="age" min="10" max="90" required>
+            <label for="male" class="male-label"><input type="radio" name="gender" value="male" id="male" checked> Male</label>
+            <label for="female" class="female-label"><input type="radio" name="gender" value="female" id="female"> Female</label>
+            <p>Did you <a href="forget.html" target="_blank">forget password?</a></p>
+        <button type="submit" id="signup-Btn">Submit</button>
+      </div>
+    </form>
+</body>
+</html>
