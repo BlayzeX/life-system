@@ -41,3 +41,19 @@ The Sign Up Page lets users create a new account.
 - Connect forms to backend in future versions
 - Improve styling and UX for all pages
 
+---
+
+### 4. Forget Password Page (`forget.html`)
+The Forget Password page allows users to request a password reset by entering their email address.  
+**Features:**
+- Single email input field
+- Submit button (placeholder – no backend logic yet)
+- Minimal and focused UI
+- Centered card layout using Flexbox
+- Gradient background consistent with the project theme
+
+**Planned Improvements:**
+- Add confirmation message after submitting email
+- Create a New Password page
+- Connect to backend or JavaScript validation in future versions
+
