@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="tasks.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+</head>
+<nav class="navbar">
+        <ul>
+            <li class="one"><a href="home.html">Home</a></li>
+            <li class="two"><a href="dashboard.html">Dashboard</a></li>
+            <li class="three"><a href="goals.html">Goals</a></li>
+            <li class="four"><a href="sttings.html">Settings</a></li>
+        </ul>
+    </nav>
+    <h1>Welcome, Ahmed!</h1>
+    <p class="day">Day: 2/13/2026</p>
+   <div class="today-plan">
+   <i class="fa-duotone fa-solid fa-pen"></i>
+   <h2>Today's plan</h2>
+    <ul id="task-list">
+       <ol >Learn more about JavaScript 5xp  <input type="checkbox"></ol>
+       <ol >progress in my big project 5xp  <input type="checkbox"></ol>
+       <ol> Study Math 10xp  <input type="checkbox"></ol>
+       <ol>Learn French 5xp  <input type="checkbox"></ol>
+    </ul>
+       <p id="completed" >Task Completed: 0/4</p>
+       <button>End Day</button>
+    </div>
+    <script src="tasks.js"></script>
+</body>
+</html>
