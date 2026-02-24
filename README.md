@@ -57,3 +57,18 @@ The Forget Password page allows users to request a password reset by entering th
 - Create a New Password page
 - Connect to backend or JavaScript validation in future versions
 
+- ### 5. Tasks Page (`dashboard.html` / `tasks.html`)
+
+The Tasks Page is the core of the project.  
+It allows the user to manage daily tasks and track progress in a simple and motivating way.
+
+**Features:**
+- Navigation bar (Home, Dashboard, Goals, Settings)
+- Personalized welcome message
+- Current day display
+- "Today's Plan" card with task list
+- XP system for each task
+- Checkboxes to mark tasks as completed
+- Task counter (0/4 completed)
+
+
